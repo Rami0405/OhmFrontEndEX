@@ -1,0 +1,132 @@
+.SelectedImages {
+    width: 248px;
+    height: 325px;
+    border-radius: 10px;
+}
+
+.a {
+    text-decoration: none;
+    color: #333333;
+    padding: 15px 20px;
+    display: block;
+
+}
+
+.InstaImages {
+    border-radius: 10px;
+    width: 59px;
+    height: 59px;
+}
+
+.main-section {
+    width: 70%;
+    margin: 50px auto;
+    clear: both;
+}
+
+.main-section:before,
+.main-section:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.right-side {
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+}
+
+.right-side div {
+    height: 250px;
+}
+
+.right-side div+div {
+    margin-top: 50px;
+}
+
+.left-side {
+
+    display: inline-block;
+    float: left;
+    position: sticky;
+    top: 50px;
+}
+
+
+
+
+
+
+
+
+
+.left-side2 {
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+}
+
+.left-side2 div {
+    height: 250px;
+}
+
+.left-side2 div+div {
+    margin-top: 50px;
+}
+
+.right-side2 {
+    display: inline-block;
+    float: right;
+    position: sticky;
+    top: 50px;
+}
+
+.picStyle {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.dotRed {
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.dotGreen {
+    height: 15px;
+    width: 15px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.dotBlue {
+    height: 15px;
+    width: 15px;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.dotYellow {
+    height: 15px;
+    width: 15px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 5px;
+}
